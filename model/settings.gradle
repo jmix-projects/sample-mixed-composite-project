@@ -1,0 +1,8 @@
+rootProject.name = 'model-addon'
+
+include 'model'
+include 'model-starter'
+
+rootProject.children.each { p1 ->
+    p1.buildFileName = "${p1.name}.gradle"
+}

@@ -1,0 +1,5 @@
+rootProject.name = 'demo-all'
+
+includeBuild '../model'
+includeBuild '../flow-app'
+includeBuild '../classic-app'
